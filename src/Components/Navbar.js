@@ -1,7 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState } from "react";
-import logo from "../Assets/logo.png";
-import { BsCart2 } from "react-icons/bs";
+import logo2 from "../Assets/logo2.png";
 import { HiOutlineBars3 } from "react-icons/hi2";
 import Box from "@mui/material/Box";
 import Drawer from "@mui/material/Drawer";
@@ -45,13 +44,13 @@ const Navbar = () => {
     <nav>
       <div className="nav-logo-container">
         
-        <img src={logo} alt="" style={{height:"110px", width:"140px",padding:"5px"}} />
+        <img src={logo2} alt="" style={{height:"80px", width:"200px",padding:"5px"}} />
       </div>
       <div className="navbar-links-container">
         
         <a href="">Services</a>
         <a href="">Testimonials</a>
-        <a href="">Contact</a>
+        
         
         <button className="primary-button">Download the App Now</button>
       </div>

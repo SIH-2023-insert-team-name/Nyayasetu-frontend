@@ -1,24 +1,24 @@
 import React from "react";
-import PickMeals from "../Assets/pick-meals-image.png";
-import ChooseMeals from "../Assets/choose-image.png";
-import DeliveryMeals from "../Assets/delivery-image.png";
+import Lsp from "../Assets/lsp.png";
+import Userex from "../Assets/userex.png";
+import Trust from "../Assets/trust.png";
 
 const Work = () => {
   const workInfoData = [
     {
-      image: PickMeals,
-      title: "Pick Meals",
-      text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et sagittis duis elementum interdum facilisi bibendum.",
+      image: Lsp,
+      title: "Case discovery and selection",
+      text: "Browsing client-posted cases on the platform, review case details, and express interest in cases that align with their expertise",
     },
     {
-      image: ChooseMeals,
-      title: "Choose How Often",
-      text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et ",
+      image: Userex,
+      title: "Recommendation system",
+      text: "Clients seeking legal representation can input case details, and the platform recommends lawyers based that",
     },
     {
-      image: DeliveryMeals,
-      title: "Fast Deliveries",
-      text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et lorem ipsum",
+      image: Trust,
+      title: "Transparent and trustworthy",
+      text: "Verified profiles, User Ratings, Real-Time Updates , Ticket Raising methods to ensure trust, transparency, and accountability ",
     },
   ];
   return (
@@ -27,8 +27,7 @@ const Work = () => {
         <p className="primary-subheading">Services</p>
         <h1 className="primary-heading">How We Work</h1>
         <p className="primary-text">
-          Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non et
-          elit. Dolor turpis molestie dui magnis facilisis at fringilla quam.
+          Government of India initiative connecting clients with legal service providers by providing transparent and seamless experience with timely updates
         </p>
       </div>
       <div className="work-section-bottom">

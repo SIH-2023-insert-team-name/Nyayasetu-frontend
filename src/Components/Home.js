@@ -2,7 +2,6 @@ import React from "react";
 import BannerBackground from "../Assets/home-banner-background.png";
 import BannerImage from "../Assets/home-banner-image.png";
 import Navbar from "./Navbar";
-import { FiArrowRight } from "react-icons/fi";
 
 const Home = () => {
   return (
@@ -19,8 +18,8 @@ const Home = () => {
           <p className="primary-text">
             Connecting the users and legal service providers providing the seamless user experience by bridging the gap
           </p>
-          <button className="secondary-button">
-            Explore<FiArrowRight />{" "}
+          <button className="primary-button">
+            Explore{" "}
           </button>
         </div>
         <div className="home-image-section">
