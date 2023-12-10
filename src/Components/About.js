@@ -14,15 +14,14 @@ const About = () => {
       <div className="about-section-text-container">
         <p className="primary-subheading">About</p>
         <h1 className="primary-heading">
-          Food Is An Important Part Of A Balanced Diet
+          Serving legal requirements of every citizen
         </h1>
         <p className="primary-text">
-          Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non et
-          elit. Dolor turpis molestie dui magnis facilisis at fringilla quam.
+          Bridging the gap between legal service providers and users by providing a centralized
+          platform and making the legal service sector of India organised and accessible to all.
         </p>
         <p className="primary-text">
-          Non tincidunt magna non et elit. Dolor turpis molestie dui magnis
-          facilisis at fringilla quam.
+        Integrating the platform with other legal service providers and institutions, such as courts, legal aid clinics, and bar associations of India.
         </p>
        
       </div>
